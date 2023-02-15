@@ -10,7 +10,7 @@
   left: 0;
   width: 100%;
   padding: 15px 200px;
-  background: #4a98f7;
+  background: #F2CD5C;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -30,6 +30,7 @@ a {
 .nav .logo {
   font-size: 22px;
   font-weight: 500;
+  color: #400E32;
 }
 .nav .nav-links {
   column-gap: 20px;
@@ -84,10 +85,14 @@ a {
     padding-top: 100px;
     row-gap: 30px;
     flex-direction: column;
-    background-color: #11101d;
+    background-color: #F2921D;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
     z-index: 100;
+  }
+  .nav .logo{
+    padding-right: 50px;
+    color: #400E32;
   }
   .nav.openNav .nav-links {
     left: 0;
