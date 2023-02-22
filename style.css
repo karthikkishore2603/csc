@@ -259,3 +259,70 @@ h6 {
   color: #fff !important;
   transition: ease-in all 0.5s;
 }
+
+
+/***********About us*******/
+
+.section-head h4 {
+  position: relative;
+  padding:0;
+  color:#f91942;
+  line-height: 1;
+  letter-spacing:0.3px;
+  font-size: 34px;
+  font-weight: 700;  
+  text-align:center;
+  text-transform:none;
+  margin-bottom:30px;
+  }
+  
+  .section-head h4:before {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background: #f91942;
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  right:0;  
+  margin:0 auto;
+  }
+  
+  .section-head h4 span {
+  font-weight: 700;
+  padding-bottom: 5px;
+  color:#2f2f2f
+  }
+  
+  .section-head p, p.awesome_line{
+  color:#000000;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height:28px;
+  text-align:center;  
+  }
+  
+  @media screen and (max-width: 767px) {
+      .section-head p, p.awesome_line{
+      padding-left: 2px;
+      padding-right: 2px;
+      }
+      
+  }
+  
+  
+.number-count{
+  padding-top: 50px;
+}
+  .number-count h2 {
+      font-size: 60px;
+      }
+      .number-count p {
+      font-size: 22px;
+      }
+      
+      
+      
+  

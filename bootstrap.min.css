@@ -19,3 +19,25 @@
 .col-md-5{-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}
  
 .col-md-7{-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}}
+
+
+/***********about************/
+
+
+  .row{
+       display:flex;
+       flex-wrap:wrap;
+       max-width: 100%;}
+ 
+ 
+
+
+ .row>*{flex-shrink:0;width:100%;} 
+ @media (min-width:576px){
+ .col-lg-3{flex:0 0 auto;width:25%}
+ .gy-lg-5{--bs-gutter-y:3rem}}
+ .gy-xxl-5{--bs-gutter-y:3rem}
+
+
+
+.text-left{text-align:left!important}.text-right{text-align:right!important}.text-center{text-align:center!important}
