@@ -305,15 +305,26 @@ h6 {
   text-align:center;  
   }
 
+
   .section-head img{
   position: absolute;
-  top: 0px;
+  top: 250px;
+  bottom: 10px;
   right: -0px;
   
   z-index: -1;
   }
   
-  
+  @media  screen and (max-width: 624px) {
+    .section-head img{
+      position: absolute;
+      top: 0px;
+      bottom: 10px;
+      right: -0px;
+      
+      z-index: -1;
+  }
+  }
   @media screen and (max-width: 767px) {
       .section-head p, p.awesome_line{
       padding-left: 2px;
@@ -322,6 +333,16 @@ h6 {
       
   }
   
+  @media  screen and (max-width: 767px) {
+    .section-head img{
+      position: absolute;
+      top: 975px;
+      bottom: 10px;
+      right: -0px;
+      
+      z-index: -1;
+  }
+  }
   
 .number-count{
   padding-top: 50px;
