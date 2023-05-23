@@ -112,7 +112,7 @@ a {
     font-size: 20px;
     cursor: pointer;
   }
- 
+  
 }
 
 /**********************home*********************/
@@ -193,7 +193,7 @@ h6 {
   padding-top: 50px;
   font-size: 80px;
   line-height: 85px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -210,7 +210,6 @@ h6 {
   display: block;
   color: #000000;
   line-height: 25px;
-  padding-bottom: 50px;
   font-weight: 500;
 }
 
@@ -224,137 +223,20 @@ h6 {
 
 .images_box figure {
   margin: 0px;
+  
+
 }
 
 .images_box figure img {
-  width: 100%;
+  width: 700px;
+  padding-top: 0px;
+  padding-left: 15px;
+  margin-left: 15px;
+  left: 50px;
 }
-
-.carousel-caption {
-  position: inherit;
+@media  (max-width: 992px){
+  .images_box figure img {
+    width: 100%;
+  }
 }
-
-.carousel-control-next,
-.carousel-control-prev {
-  display: none;
-}
-
-.read_more {
-  font-size: 17px;
-  background-color: transparent;
-  border: #00aeef solid 5px;
-  color: #010a05 !important;
-  padding: 13px 0px;
-  width: 100%;
-  max-width: 210px;
-  text-align: center;
-  display: inline-block;
-  transition: ease-in all 0.5s;
-  border-radius: 40px;
-  font-weight: 500;
-}
-
-.read_more:hover {
-  background: #00aeef;
-  color: #fff !important;
-  transition: ease-in all 0.5s;
-}
-
-
-/***********About us*******/
-
-.section-head h4 {
-  position: relative;
-  padding:0;
-  color:#fcba03;
-  line-height: 1;
-  letter-spacing:0.3px;
-  font-size: 34px;
-  font-weight: 700;  
-  text-align:center;
-  text-transform:none;
-  margin-bottom:30px;
-  }
-  
-  .section-head h4:before {
-  content: '';
-  width: 60px;
-  height: 3px;
-  background: #fcba03;
-  position: absolute;
-  left: 0px;
-  bottom: -10px;
-  right:0;  
-  margin:0 auto;
-  }
-  
-  .section-head h4 span {
-  font-weight: 700;
-  padding-bottom: 5px;
-  color:#2f2f2f
-  }
-  
-  .section-head p, p.awesome_line{
-  color:#000000;
-  font-size: 24px;
-  position: relative;
-  padding-top: 32px;
-  padding-left: 100px;
-  padding-right: 100px;
-  line-height:28px;
-  text-align:center;  
-  }
-
-
-  .section-head img{
-  position: absolute;
-  top: 250px;
-  bottom: 10px;
-  right: -0px;
-  
-  z-index: -1;
-  }
-  
-  @media  screen and (max-width: 624px) {
-    .section-head img{
-      position: absolute;
-      top: 0px;
-      bottom: 10px;
-      right: -0px;
-      
-      z-index: -1;
-  }
-  }
-  @media screen and (max-width: 767px) {
-      .section-head p, p.awesome_line{
-      padding-left: 2px;
-      padding-right: 2px;
-      }
-      
-  }
-  
-  @media  screen and (max-width: 767px) {
-    .section-head img{
-      position: absolute;
-      top: 975px;
-      bottom: 10px;
-      right: -0px;
-      
-      z-index: -1;
-  }
-  }
-  
-.number-count{
-  padding-top: 50px;
-  padding-bottom: 25px;
-}
-  .number-count h2 {
-      font-size: 60px;
-      }
-      .number-count p {
-      font-size: 22px;
-      }
-      
-      
-      
   
